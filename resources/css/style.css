@@ -54,6 +54,7 @@ img {
 .tea {
   display: flex;
   flex-flow: column wrap;
+  margin-top: 50px;
 }
 
 .pic-div {
@@ -83,6 +84,7 @@ img {
 .background {
   display: flex;
   align-items: center;
+  margin-top: 100px;
   justify-content: center;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   height: 500px;
@@ -106,4 +108,13 @@ img {
 
 .box h3 {
   margin-top: 40px;
+}
+/*contact*/
+.contact {
+
+}
+/*footer*/
+footer {
+  display: flex;
+  margin-left: 20px;
 }
