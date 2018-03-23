@@ -18,14 +18,17 @@ a {
 
 }
 
-.header {
+header {
   display: flex;
-  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
   z-index: 1;
   flex-flow: row wrap;
   justify-content: space-between;
-  height: 69px;
+  height: 70px;
   border-bottom: 1px solid seashell;
+  background-color: black;
 }
 
 img {
@@ -38,8 +41,9 @@ img {
 .position {
   display: flex;
   justify-content: center;
+  padding-top: 63px;
 }
-.mission {
+#mission {
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   height: 700px;
@@ -51,7 +55,7 @@ img {
   margin-top: 270px;
 }
 /*tea of the month*/
-.tea {
+#ftea {
   display: flex;
   flex-flow: column wrap;
   margin-top: 50px;
@@ -66,8 +70,13 @@ img {
 
 .pic {
   display: flex;
+  height: 270px;
   flex-flow: column wrap;
   padding-right: 20px;
+}
+
+.pic span {
+  padding-top: 20px;
 }
 
 .pic img {
@@ -81,14 +90,18 @@ img {
   justify-content: center;
 }
 /*Locations*/
-.background {
+#locations {
   display: flex;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 60px;
   justify-content: center;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   height: 500px;
   width: 1200px;
+}
+
+.background h2 {
+
 }
 
 .box {
