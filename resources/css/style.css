@@ -78,5 +78,32 @@ img {
 .align {
   display: flex;
   justify-content: center;
+}
+/*Locations*/
+.background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+}
 
+.box {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 40px;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+}
+
+.box span {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.box h3 {
+  margin-top: 40px;
 }
